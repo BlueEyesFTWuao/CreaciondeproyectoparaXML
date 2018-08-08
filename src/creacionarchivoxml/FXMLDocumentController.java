@@ -64,6 +64,8 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     private void btguardar(ActionEvent event) {
+        Empleado objE= new Empleado();
+        boolean guardar=objE.crearFileXML(listaEmpleados);
 
     }
 

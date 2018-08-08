@@ -28,6 +28,10 @@ public class Empleado extends Persona {
         this.departamento = departamento;
     }
 
+    public Empleado(String codigo, String nombre, String Edad, String direccion, String departamento) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     /**
      * Get the value of departamento
      *
